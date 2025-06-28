@@ -1,18 +1,18 @@
 # Input a number and check if it is even or odd
-# a = int(input("Enter a number"))
-# if a % 2 ==0:
-#     print("It is even number")
-# else:
-#     print("It is odd number")
+a = int(input("Enter a number"))
+if a % 2 ==0:
+    print("It is even number")
+else:
+    print("It is odd number")
 
 
 # Hardcoded username/password check
-# username = input("enter username")
-# password = int(input("enter password"))
-# if(username == "admin" and password == 1234):
-#     print("login Successfull")
-# else:
-#     print("Invalid username and password")
+username = input("enter username")
+password = int(input("enter password"))
+if(username == "admin" and password == 1234):
+    print("login Successfull")
+else:
+    print("Invalid username and password")
 
 # Input 3 numbers and print the largest
 num1 = int(input("enter the num1: "))
